@@ -10,8 +10,8 @@ babel is a js compiler
 * react.render can only take one html element otherwise code crashes
   solution - wrap in a single div
 
-* what is virtual dom
-* hooks
+------------------------------------------------what is virtual dom--
+
  
 
 --------------------------------------expressions vs statements--
@@ -38,8 +38,62 @@ babel is a js compiler
 
 -----------------------------------------states--
 
-* 
+* In React, "state" refers to an object that represents the current state of a component. 
+  It is a fundamental concept in React and plays a crucial role in building dynamic and interactive user interfaces.
+
+* Component State: Each component in React can have its own state, which is managed internally by the component itself. This state 
+  can hold data that might change over time, such as user input, the result of an API call, or UI-related information.
+
+* Class Components: In class components, state is initialized in the constructor using this.state and can be updated 
+  using this.setState() method provided by React. When the state changes, React automatically re-renders the component to 
+  reflect the updated state.
+
+  ex:
+       import React, { Component } from 'react';
+     
+     class MyComponent extends Component {
+       constructor(props) {
+         super(props);
+         this.state = {
+           count: 0
+         };
+       }
+     
+       render() {
+         return (
+           <div>
+             <p>Count: {this.state.count}</p>
+             <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+               Increment
+             </button>
+           </div>
+         );
+       }
+     }
+     
+     export default MyComponent;
+
+
+
+-----------------------------------------hooks--
+
+* React Hooks were first released in February 2019, with the release of React 16.8. They were introduced as a way to manage state 
+  and other React features )without writing a class component). Hooks are functions that allow you to "hook into" React state and 
+  lifecycle features from within a functional component.
+
+* Before Hooks, the only way to add state to a component was to convert it to a class component. This could be cumbersome, 
+  especially for small components that only needed a little bit of state. Hooks make it easy to add state to functional components, 
+  without having to rewrite the entire component.
+
+* Hooks have been very well-received by the React community, and they are now the preferred way to manage state in React components. 
+  In fact, class components are now deprecated, and they will be removed from React in a future version.
+
+* Here are some of the benefits of using React Hooks:
+  )They make it easy to add state to functional components.
+  )They allow you to reuse state logic between components.
+  )They make your code more concise and readable.
+  )They are backward-compatible, so you can start using them in your existing React projects.
 
 ----------------------------------------use state hook--
 
-*
+* 
