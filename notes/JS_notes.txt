@@ -72,6 +72,7 @@ const promise = create_order(cart);
 
 ------------------------------------objects in js--
 
+angela yu udemy -> React -> 308 309 video very useful to learn how to destructure objects and arrays!!!
 
 ------------------------------------hoisting in js--
 
