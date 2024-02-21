@@ -1,0 +1,38 @@
+<script>
+    // async function getData() {
+    //     return "sree";
+    // }
+
+    // const pr = getData();
+    // console.log(pr);
+    // pr.then(function (res) {
+    //     console.log(res);
+    // });
+
+    // pr.then((res) => console.log(res));//arrow fn
+
+    //////////////////////////////////////////////////// withpout using async
+    const p = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("promise reslove val");
+        }, 5000)
+    });
+
+    // async function getas() {
+    //     p.then(function (res) {
+    //         console.log(res);
+    //     });
+    //     console.log("hello");
+    // }
+    // getas();
+
+    ////////////////////////////////////////////////////////// using async
+
+    async function getdam(){
+        console.log("hello");
+        const pp = await p;
+        console.log(pp);
+    }
+    getdam();
+
+</script>

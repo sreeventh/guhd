@@ -1,0 +1,45 @@
+#######################################################################################################
+-------------------------------------REACT NOTES-------------------------------------------------------
+#######################################################################################################
+
+---------------------------------------what is react--
+javascript library to build user interfaces
+babel is a js compiler
+
+---------------------------------------------General--
+* react.render can only take one html element otherwise code crashes
+  solution - wrap in a single div
+
+* what is virtual dom
+* hooks
+ 
+
+--------------------------------------expressions vs statements--
+
+* React doesnt accept statements - that is performing logic in functions and displaying elements
+* solution is to use expressions - i.e, use ternary operators like ? : and && to carry out logic and conditional rendering.
+
+--------------------------------------declarative vs imperative programming--
+
+* Imperative programming can work within React, but it's not typically the preferred approach. React primarily follows a declarative 
+  programming paradigm, where you describe the desired outcome rather than the step-by-step instructions to achieve it.
+  ex: document.getElementById("id").style.display="none";
+
+* However, there are scenarios where imperative programming might be necessary or useful within a React application. For instance, 
+  you might use imperative code when interacting with the DOM directly, such as when integrating with non-React libraries or performing 
+  low-level DOM manipulations.
+
+* React provides lifecycle methods and hooks like useEffect that allow you to perform imperative actions in a controlled manner, 
+  typically within the context of component lifecycle events.
+
+* but the problem with declarative programming is that, React renders elements and are not changeable, inorder to see changes
+  the elements need to be re-rendered.
+  Thats where states and hooks come into play.  
+
+-----------------------------------------states--
+
+* 
+
+----------------------------------------use state hook--
+
+*

@@ -1,0 +1,12 @@
+<script>
+    const api_url = "https://api.github.com/users/sreeventh";
+
+    async function get_user() {
+        const data = await fetch(api_url);
+        const user_data = await data.json();
+
+        console.log(user_data);
+    }
+
+    get_user();
+</script>

@@ -1,0 +1,82 @@
+###################################################################################################################
+****************************************JavaScript Notes:*****************************************************
+#############################################################################################################
+
+-----------------------------let vs const vs var--
+
+* var -> function scoped variables - accessible outside the function too - attched to window object
+* let, const -> block scoped variables
+* const cannot be re-assigned
+
+-----------------------------map filter reduce sort higher order functions--
+
+* map - 
+
+
+-----------------------------Callback and Promises--
+
+* set timeout – manually setting time for function to wait. Not optimal
+
+* callback – passing of func inside another func to be called back after execution of one,
+drawbacks- pyramid of doom – callback hell too many interdependent functions
+(refer Akshay Saini YT if any doubts).
+
+* promise – empty object with some value that denotes that the function has been executed
+in promise we are attaching a function not PASSING it !
+Gives control of our code.
+
+Ex: 
+
+//callback:
+// issue : what if create_order fn has bugs or not executed successfully or called fn more than once !
+
+const cart = [“shoes”,”socks”,”slippers”];
+create _order(cart,function(order_id){
+	payment(order_id);
+});
+
+//promise:
+
+const promise = create_order(cart);
+
+ promise.then(function(order_id){
+	payment(order_id);
+});
+
+* 3 states in promises - pending , fulfilled and rejected
+* defn of promise - promise is an empty object that denotes the eventual completion or rejection of an async operation.
+* 2 functions js provides us while creating a promise- resolve and reject
+* check prom.html code for more clarity
+* error handling can also be done
+* promise.all() - all promsies must be resolved for execution otherwise error, doesnt wait for other promises
+  promise.allSettled() - shows status of all promises, executes them all irrespective of rejection
+  promise.race() - fastest promise executes, others dont execute
+  promise.any() - waits for first successful promise that gets resolved
+
+
+--------------------------------------async and await--
+
+* async used to create functions which are asynchronous - these fn always return a promise
+* async and await are used to handle promises
+* await can be only used inside a async function
+* instead of .then using await
+* the await keyword in JavaScript directly returns the resolved value of a promise returned by an asynchronous function. 
+  When you use await in front of a promise, it pauses the execution of the async function until that promise settles (either resolves or rejects). 
+  Once the promise settles, await returns the resolved value if the promise was fulfilled, or throws an error if the promise was rejected.
+* When you use await with a promise inside an async function, it pauses the execution of that function until the promise settles. This allows you to write asynchronous code in a more synchronous style.
+  When you don't use await with a promise, the execution of the code continues immediately, and any subsequent code after the promise will be executed, potentially before the promise settles.
+
+----------------------------------event listeners--
+* event handlers only one event can happen
+* event listeners multiple event listeners possible
+
+------------------------------------objects in js--
+
+
+------------------------------------hoisting in js--
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<script>
+    const cart = ["hat", "sunglasses", "pants", "shoes"];
+
+    const promise = create_order();
+
+    promise.then(function (order_id) {
+        console.log(order_id);
+    }).catch(function(err){
+        console.log(err.message);
+    });
+
+    function create_order() {
+        const pr = new Promise(function (resolve, reject) {
+            if (!validate_cart(cart)) {
+                const err = new Error("cart not valid");
+                reject(err);
+            }
+            const order_id = "12345";
+            if (order_id) {
+                setTimeout(function () {
+                    resolve(order_id);
+                }, 3000)
+            }
+        });
+        return pr;
+    }
+
+    function validate_cart(cart) {
+        return false;
+    }
+
+</script>
