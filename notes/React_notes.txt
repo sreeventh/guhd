@@ -94,6 +94,26 @@ babel is a js compiler
   )They make your code more concise and readable.
   )They are backward-compatible, so you can start using them in your existing React projects.
 
-----------------------------------------use state hook--
+----------------------------------------useState hook--
 
-* 
+* useState is one of the basic hooks in react
+
+* const [state, setState] = useState(initialState)
+  here useState returns an array with exactly two values:
+    )The current state. During the first render, it will match the initialState you have passed.
+    )The set function that lets you update the state to a different value and trigger a re-render.
+
+* Usage of useState hook:
+    Adding state to a component
+    Updating state based on the previous state
+    Updating objects and arrays in state
+    Avoiding recreating the initial state
+    Resetting state with a key
+    Storing information from previous renders
+
+* useState function version
+* useState with objects
+
+* Rules of Hooks
+  ✅ Call Hooks from React function components.
+  ✅ Call Hooks from custom Hooks 
