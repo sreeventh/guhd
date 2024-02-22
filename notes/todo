@@ -13,12 +13,33 @@ err handling - codespindle))
 }}js architecture
 }}priority queue working of js
 }}set interval vs timeout
-
+classes in js
+this keyword
+classes constructors and objects
 
 
 REST API--
 
 React--
+
+udemy
+class comp 
+lifecycle comp 
+super props 
+use memo 
+
+use effect 
+use callback 
+use context 
+use ref 
+higher order comp 
+parent child struct bi-dir 
+context provider & consumer
+mat ui 
+
+
+
+
 
 
 Node--
