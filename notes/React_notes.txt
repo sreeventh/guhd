@@ -17,7 +17,7 @@ babel is a js compiler
 --------------------------------------expressions vs statements--
 
 * React doesnt accept statements - that is performing logic in functions and displaying elements
-* solution is to use expressions - i.e, use ternary operators like ? : and && to carry out logic and conditional rendering.
+* solution is to use expressions - i.e, use ternary operators like ? : and && || to carry out logic and conditional rendering.
 
 --------------------------------------declarative vs imperative programming--
 

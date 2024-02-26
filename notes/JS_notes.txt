@@ -10,8 +10,22 @@
 
 -----------------------------map filter reduce sort higher order functions--
 
-* map - 
+* refer arr.js
 
+----------------------------------------------objects--
+
+* const x = person;  // Will not create a copy of the object-person.
+  The object x is not a copy of person. It is person. Both x and person are the same object.
+  Any changes to x will also change person, because x and person are the same object.
+
+* JSON.parse() - converts string to js object
+-----------------------------------------this keyword--
+
+* In an object method, this refers to the object.
+  Alone, this refers to the global object.
+  In a function, this refers to the global object.
+  In a function, in strict mode, this is undefined.
+  In an event, this refers to the element that received the event.
 
 -----------------------------Callback and Promises--
 

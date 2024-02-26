@@ -5,46 +5,65 @@ async await - as))
 event listeners))
 arrow fn - telusko))
 }}array and objects - prototype in js - codespindle
-}}map-filter-reduce-sort - as
+map-filter-reduce-sort - as))
 var let const - as))
 err handling - codespindle))
-}}hoisting 
-}}closure
-}}js architecture
+}}hoisting }}
+}}closure}
+}}js architecture}
 }}priority queue working of js
 }}set interval vs timeout
-classes in js
-this keyword
-classes constructors and objects
+classes in js))
+this keyword))
+classes constructors and objects))
 
 
-REST API--
+-- REST API--
 
-React--
+-- React--
 
-udemy
-class comp 
-lifecycle comp 
-super props 
-use memo 
+-- class comp 
+-- lifecycle comp 
+-- super props 
+-- use memo
 
-use effect 
-use callback 
-use context 
-use ref 
-higher order comp 
-parent child struct bi-dir 
-context provider & consumer
-mat ui 
-
-
+-- use effect 
+-- use callback 
+-- use context 
+-- use ref 
+-- higher order comp 
+-- parent child struct bi-dir 
+-- context provider & consumer
+-- mat ui 
 
 
 
+friday - Javascript fully-->
 
-Node--
+objects ))
+prototype , obj methods , spread operator))
+array - map filter reduce sort ))
+class and construtors , this ))
+arrow function ))
+var let const ))
+---------------------------------
+-- hoisting 
+-- closure 
+---------------------------------
+js arch and priority queue 
+setinterval vs timeout))
+prom,callback,async await revise
+fetch w3 schools
+event listeners ))
+err handling
 
-node architecture deep dive
+
+-- sat - udemy and react remaining topics 
+-- sunday - mat ui & project
 
 
-}}}notes app with react - use calendar json}}}
+-- Node--
+
+-- node architecture deep dive
+
+
