@@ -20,22 +20,26 @@ classes constructors and objects))
 
 -- REST API--
 
--- React--
+React--
 
--- class comp 
--- lifecycle comp 
--- super props 
--- use memo
+class comp ))
+revise
+lifecycle comp 
+use effect 
+routing
+use param
+use ref 
 
--- use effect 
--- use callback 
--- use context 
--- use ref 
--- higher order comp 
--- parent child struct bi-dir 
--- context provider & consumer
--- mat ui 
+use memo
+use callback 
+use context 
 
+parent child struct bi-dir (super props?)
+mat ui 
+project
+
+context provider & consumer
+higher order comp 
 
 
 friday - Javascript fully-->
@@ -50,10 +54,10 @@ var let const ))
 -- hoisting 
 -- closure 
 ---------------------------------
-js arch and priority queue 
+js arch and priority queue
 setinterval vs timeout))
 prom,callback,async await revise
-fetch w3 schools
+fetch w3 schools))
 event listeners ))
 err handling
 

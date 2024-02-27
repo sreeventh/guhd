@@ -157,7 +157,7 @@
 // }
 // let x = 10;
 // function example() {
-    
+
 //     let y = 20;
 //     if (true) {
 //         let z = 30;
@@ -168,7 +168,7 @@
 // }
 // const x = 10;
 // function example() {
-    
+
 //     let y = 20;
 //      y = 30;
 //     console.log(x); // 10
@@ -178,4 +178,22 @@
 
 ////////////////////////////////////////////////object reference/////////////////////////////////////////////
 
+
+////////////////////////////////////////proto
+
+const p = {
+    "name": "sreeventh",
+    "age": 21
+}
+const a = {};
+
+a.__proto__ = p;
+console.log("proto a: "+a["name"]); 
+
+const b = {
+    "name":"chinamy"
+}
+
+b.__proto__ = p;
+console.log("proto b: "+b["name"]);
 
