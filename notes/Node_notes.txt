@@ -1,0 +1,49 @@
+what is node//
+node js architecture
+node basic//
+express
+rest api
+
+sample func testing j
+
+graphql
+sample func tetsing j 
+
+
+-------------------------------Express Framework----------------------------------------------
+
+* Node is run time environment for javascript to run on computers/servers.
+
+* steps:
+    npm init -y
+    npm i express
+    package.json --> "type":"module", //to use es6 latest syntax
+    npm i body-parser
+    
+
+---------------------------------HTTP requset methods--
+
+* Get - retreives info from specified source, shd only be used to request data not modify.
+* Post - sends data to server for processing, usually resulting change in server state or side effects  on server.
+* Put - Updates current resource or creates new one if doesnt exist.
+* Patch - Updates part of an existing resource.
+* Delete - Deletes resource.
+
+--------------------------------------------------------------------------------
+
+* req - stands for request and represents the HTTP request made by the client to the server. It contains information about the request such as the URL, query parameters, request headers, and any data sent in the request body.
+
+* res - stands for response and represents the HTTP response that the server sends back to the client. It is used to send the response data, set HTTP headers, and control the response status.
+
+* In Express.js, middleware functions are functions that have access to the request object (req), the   response object (res), and the next middleware function in the application’s request-response cycle. Middleware functions can perform tasks such as:
+
+Executing any code.
+Making changes to the request and the response objects.
+Ending the request-response cycle.
+Calling the next middleware function in the stack.
+Middleware functions are added to the Express application using the app.use() method or specific HTTP method functions like app.get(), app.post(), etc.
+
+Middleware functions are commonly used for tasks such as logging, authentication, error handling, parsing request bodies, and more. They provide a flexible and modular approach to handling requests in an Express application.
+
+
+

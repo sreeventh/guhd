@@ -1,0 +1,24 @@
+
+Graphql is a query language for api's and a runtime for fulfilling those queries.
+Provides complete and understandable description of data in API.
+Gives exactly what client needs and nothing more.
+Solves problem of overfetching and underfetching in REST API.
+Reduces Latency.
+Reduces number of multiple api calls.
+Single endpoint (query). i.e, client only communicates with gql server and not data directly, gql server resolves the query and then sends data.
+Useful for microservices applications.
+Gql queries an api not database.
+Can nest Data (important need to explore(pedrotech))
+
+
+2 types of requests/types in gql:
+)query - (get)
+)mutation - (post put delete)
+
+
+Typedefs, short for type definitions, are a core part of GraphQL schema definition. They allow you to describe the structure of the data that can be queried by the client. This includes specifying custom object types, scalar types, enumerations, interfaces, and unions. Each of these types can include fields that are themselves typed, enabling a strongly typed API design that can be validated and introspected.
+
+Resolvers are the functions that fulfill the requests for specific fields in a GraphQL query. When a client queries a GraphQL server, resolvers are called to fetch the requested data. Each field on each type is backed by a resolver function that is responsible for returning the value for that field.
+
+Resolvers can retrieve data from various sources, including databases, other APIs, or even static files. They are where the logic to fetch or compute the requested data resides. Resolvers are typically organized in a structure that mirrors the schema definition, making it straightforward to locate the resolver responsible for fetching a particular piece of data.
+

@@ -1,0 +1,62 @@
+HTTP stands for Hypertext Transfer Protocol. It is the underlying protocol used for communication on the World Wide Web. HTTP enables the transfer of various types of data, such as text, images, videos, and other multimedia content, between a client (typically a web browser) and a server.
+
+HTTP operates as a request-response protocol, where a client sends a request to a server for a particular resource (e.g., a web page), and the server responds with the requested resource or an error message if the resource is not available.
+
+HTTP is a stateless protocol, meaning that each request from a client is independent of previous requests, and the server does not maintain any information about past requests. However, web applications often use techniques such as cookies and session tokens to manage state and maintain user sessions across multiple HTTP requests.
+
+HTTP operates on top of the TCP/IP protocol suite, using TCP (Transmission Control Protocol) as the underlying transport mechanism for reliable data transmission over the internet.
+
+HTTPS stands for Hypertext Transfer Protocol Secure. It is an extension of HTTP and provides a secure communication channel over a computer network. HTTPS encrypts the data transmitted between the client (such as a web browser) and the server, ensuring confidentiality and integrity of the data exchanged.
+
+HTTPS uses SSL/TLS (Secure Sockets Layer/Transport Layer Security) protocols to encrypt the data transmitted between the client and the server. SSL/TLS encryption protects sensitive information, such as login credentials, personal information, and financial details, from eavesdropping and tampering by malicious actors.
+
+To establish an HTTPS connection, the server must have a digital certificate issued by a trusted Certificate Authority (CA). This certificate contains the server's public key and other identifying information, and it is used to authenticate the server to the client. The client verifies the server's certificate to ensure that it is genuine and issued by a trusted CA. Once the authentication is successful, the client and server negotiate an encryption algorithm and establish a secure connection.
+
+HTTPS is widely used for securing sensitive transactions on the web, such as online banking, e-commerce transactions, and accessing secure websites that require user authentication. It provides users with confidence that their data is protected during transmission over the internet.
+
+HTTP methods:
+
+HTTP methods are a set of request methods used in HTTP to indicate the desired action to be performed on a given resource. Each method specifies a distinct operation, and the set of permissible methods for a particular resource is defined by the server handling the resource.
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+An API, or Application Programming Interface, is a set of rules, protocols, and tools for building software and applications. It specifies how software components should interact and allows different software systems to communicate with each other. APIs play a crucial role in enabling the integration and functionality across the internet, within software applications, and between different hardware and software systems.
+
+APIs can be broadly categorized into several types:
+
+Web APIs: These are interfaces for web servers and clients. They often use HTTP protocol for communication and are designed to be consumed over the web by HTTP clients, including browsers and mobile applications. Examples include REST (Representational State Transfer), SOAP (Simple Object Access Protocol), and GraphQL APIs.
+
+Library/Framework APIs: These APIs are provided by software libraries or frameworks, offering a set of functions and procedures that allow the execution of tasks without the need for detailed understanding of their internal workings. They simplify complex operations and enhance productivity in software development.
+
+Operating System APIs: These provide functions and procedures to interact with the underlying operating system. Examples include file handling, creating or killing processes, and communicating with peripheral devices. They enable applications to use the features and capabilities of the operating system.
+
+Database APIs: These allow communication with database management systems. They enable applications to query and manipulate data stored in a database. SQL (Structured Query Language) is a common language used in database APIs, though many databases also offer more specific API interfaces for different programming languages.
+
+Remote APIs: These are designed for interaction with software or services that run on a different system or network from the client application. They rely on network protocols for communication, with examples including CORBA (Common Object Request Broker Architecture), Java RMI (Remote Method Invocation), and Web Services (SOAP, REST).
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+A REST API (Representational State Transfer API) is an architectural style and approach to communications often used in web services development. REST defines a set of constraints for how the architecture of an Internet-scale distributed system, such as the Web, should behave. It aims to achieve high performance, scalability, simplicity, modifiability, visibility, portability, and reliability. When an API adheres to these principles, it is considered RESTful.
+
+Key principles and features of REST include:
+
+Statelessness: Each request from a client to a server must contain all the information the server needs to understand and fulfill the request. The server does not store any session state about the client, making each request independent of others. This statelessness improves the reliability and scalability of the server by simplifying the design and implementation.
+
+Client-Server Architecture: REST is based on the separation of concerns between client and server. The client is responsible for the user interface and user-related functionalities, while the server manages the data and state. This separation allows both components to evolve independently, improving the modularity of the system.
+
+Uniform Interface: A key constraint of REST is the uniform interface between clients and servers. This simplifies and decouples the architecture, allowing each part to evolve independently. The uniform interface is characterized by four guiding principles:
+
+Resource Identification in Requests: Individual resources are identified in requests using URIs (Uniform Resource Identifiers). The resources themselves are conceptually separate from the representations that are returned to the client.
+Resource Manipulation through Representations: When a client holds a representation of a resource, including any metadata attached, it has enough information to modify or delete the resource on the server, provided it has permission to do so.
+Self-descriptive Messages: Each message includes enough information to describe how to process the message. For example, which parser to invoke can be specified by the media type.
+Hypermedia as the Engine of Application State (HATEOAS): Clients interact with a REST API solely through hypermedia provided dynamically by application servers. A REST client needs no prior knowledge about how to interact with any particular application or server beyond a generic understanding of hypermedia.
+Layered System: A RESTful API may have multiple architectural layers, improving scalability by enabling load balancing and shared caches. Layers enforce security policies and encapsulate legacy systems.
+
+Cacheable: Caching can be applied to resources when applicable, improving network efficiency and client perceived performance by reusing previously fetched representations.
+
+RESTful APIs typically use HTTP methods explicitly (such as GET, POST, PUT, DELETE, and PATCH) for CRUD operations (Create, Read, Update, Delete) on resources. This use of HTTP makes RESTful APIs simple to understand and implement and allows them to seamlessly integrate with the existing architecture of the web.
+
+
+
+
+
