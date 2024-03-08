@@ -8,7 +8,8 @@ Reduces number of multiple api calls.
 Single endpoint (query). i.e, client only communicates with gql server and not data directly, gql server resolves the query and then sends data.
 Useful for microservices applications.
 Gql queries an api not database.
-Can nest Data (important need to explore(pedrotech))
+Can nest Data (important need to explore(pedrotech))]]]
+useMutaion hook and useQuery hook - need to do]]]
 
 
 2 types of requests/types in gql:
