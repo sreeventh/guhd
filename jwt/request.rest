@@ -1,0 +1,10 @@
+GET http://localhost:3000/jwtposts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2hpbm1heSIsImlhdCI6MTc0MjUzNjU5Nn0.ancloJdbZkTFDtnQPvc0fIu7JLs15NFGTwtaSmxOJXQ
+#####
+
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "chinmay"
+}
