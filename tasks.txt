@@ -1,0 +1,20 @@
+JS
+Node
+Express
+Google Bigquery
+DBMS
+React
+Kafka
+Redis
+System Design
+Devops
+AWS
+GCP
+Kubernetes
+Docker
+Nest
+Next
+
+*******************************************************************************
+
+Golang
